@@ -176,7 +176,7 @@
 </script>
 
 <svelte:head>
-  <title>Item List - Paimon.moe</title>
+  <title>Genshin Impact Item List - HoyoHub.com</title>
   <meta
     name="description"
     content="Genshin Impact Item List Table to see what to farm each day and for each character or weapon"

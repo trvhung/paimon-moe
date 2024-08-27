@@ -123,7 +123,7 @@
 </script>
 
 <svelte:head>
-  <title>Weapon List - Paimon.moe</title>
+  <title>Weapon List - HoyoHub.com</title>
   <meta name="description" content="Genshin Impact Weapon list and stats" />
   <meta property="og:description" content="Genshin Impact Weapon list and stats" />
 </svelte:head>

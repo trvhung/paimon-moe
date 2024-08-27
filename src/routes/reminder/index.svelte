@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>Paimon.moe</title>
+  <title>Reminder Hoyohub.com</title>
   <meta
     name="description"
     content="Set up a reminder notification for Parametric Transformer and Hoyolab Daily Login here"

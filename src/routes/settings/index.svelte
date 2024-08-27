@@ -371,7 +371,7 @@
 </script>
 
 <svelte:head>
-  <title>Settings - Paimon.moe</title>
+  <title>Settings - HoyoHub.com</title>
 </svelte:head>
 
 <div class="lg:ml-64 pt-20 px-4 md:px-8 lg:pt-8 max-w-screen-xl">

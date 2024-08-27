@@ -174,7 +174,7 @@
 </script>
 
 <svelte:head>
-  <title>Furnishing - Paimon.moe</title>
+  <title>Furnishing - HoyoHub.com</title>
   <meta name="description" content="Genshin Impact Furnishing list with the load and energy values" />
   <meta property="og:description" content="Genshin Impact Furnishing list with the load and energy values" />
 </svelte:head>

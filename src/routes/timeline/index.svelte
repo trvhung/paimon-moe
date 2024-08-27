@@ -230,7 +230,7 @@
 </script>
 
 <svelte:head>
-  <title>Timeline - Paimon.moe</title>
+  <title>Timeline - HoyoHub.com</title>
   <meta
     name="description"
     content="Genshin Impact event timeline calendar, view when an event and abyss order will start and end with neat timeline"

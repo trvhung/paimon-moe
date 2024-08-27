@@ -49,7 +49,7 @@
 </script>
 
 <svelte:head>
-  <title>Genius Invokation TCG - Paimon.moe</title>
+  <title>Genius Invokation TCG - HoyoHub.com</title>
   <meta name="description" content="Genshin Impact Genius Invokation TCG Deck Builder" />
   <meta
     property="og:description"

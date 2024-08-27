@@ -156,7 +156,7 @@
 </script>
 
 <svelte:head>
-  <title>Fishing - Paimon.moe</title>
+  <title>Fishing - HoyoHub.com</title>
   <meta name="description" content="Genshin Impact fish list and fishing spot location with time marker" />
   <meta property="og:description" content="Genshin Impact fish list and fishing spot location with time marker" />
 </svelte:head>

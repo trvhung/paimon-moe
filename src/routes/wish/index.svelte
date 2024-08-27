@@ -135,7 +135,7 @@
 </script>
 
 <svelte:head>
-  <title>Wish Counter - Paimon.moe</title>
+  <title>Wish Counter - HoyoHub.com</title>
   <meta
     name="description"
     content="Genshin Impact Wish Counter to track your pity counter and track when you get the character or weapon. You can also automatically import the logs and backup it from PC, Android, iOS, PlayStation then save it more than 6 months."

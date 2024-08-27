@@ -343,7 +343,7 @@
 </script>
 
 <svelte:head>
-  <title>Achievements - Paimon.moe</title>
+  <title>Genshin Impact Achievements - HoyoHub</title>
   <meta name="description" content="Track your Genshin Impact achievement easily" />
   <meta property="og:description" content="Track your Genshin Impact achievement easily" />
 </svelte:head>

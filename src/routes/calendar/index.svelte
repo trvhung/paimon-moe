@@ -340,7 +340,7 @@
 </script>
 
 <svelte:head>
-  <title>Calendar - Paimon.moe</title>
+  <title>Calendar - HoyoHub</title>
   <meta
     name="description"
     content="Genshin Impact Calendar to show genshin impact events, banner, and birthday dates!"

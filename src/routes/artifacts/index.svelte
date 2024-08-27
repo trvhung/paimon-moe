@@ -109,7 +109,7 @@
 </script>
 
 <svelte:head>
-  <title>Artifact List - Paimon.moe</title>
+  <title>Genshin Impact Artifact List - HoyoHub</title>
   <meta name="description" content="Genshin Impact Artifact list" />
   <meta property="og:description" content="Genshin Impact Artifact list" />
 </svelte:head>

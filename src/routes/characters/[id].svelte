@@ -254,7 +254,7 @@
 </script>
 
 <svelte:head>
-  <title>{character.name} - Paimon.moe</title>
+  <title>Genshin Impact {character.name} - Rating and Best Builds</title>
   <meta
     name="description"
     content="Genshin Impact {character.name} build guide, constellation, and skill information"

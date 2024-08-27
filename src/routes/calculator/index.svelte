@@ -50,7 +50,7 @@
 </script>
 
 <svelte:head>
-  <title>Calculator - Paimon.moe</title>
+  <title>Genshin Impact Damage Calculator - HoyoHub</title>
   <meta
     name="description"
     content="Genshin Impact Calculator to calculate how many mora and items needed for your character or weapon ascension and the character talent material, also quickly add the items to todo list! Hero's Wit calculator."

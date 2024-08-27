@@ -234,7 +234,7 @@
 </script>
 
 <svelte:head>
-  <title>Character Release Timeline - Paimon.moe</title>
+  <title>Character Release Timeline - HoyoHub</title>
   <meta name="description" content="Genshin Impact Character Release Timeline" />
   <meta property="og:description" content="See when the character is released and their last re-run" />
 </svelte:head>

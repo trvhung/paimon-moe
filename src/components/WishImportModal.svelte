@@ -624,7 +624,7 @@
         <p class="text-white font-semibold mt-4">{$t('wish.import.faqs.q3')}</p>
         <p class="text-gray-400">
           {$t('wish.import.faqs.a3.0')}
-          <a class="text-primary hover:underline" target="_blank" href="https://github.com/MadeBaruna/paimon-moe"
+          <a class="text-primary hover:underline" target="_blank" rel="nofollow" href="https://gamehot.net"
             >Github</a
           >{$t('wish.import.faqs.a3.1')}
         </p>
@@ -634,11 +634,11 @@
           <a
             class="text-primary hover:underline"
             href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
-            target="_blank"
+            target="_blank" rel="nofollow"
           >
             CORS</a
           >{$t('wish.import.faqs.a4.1')}
-          <a class="text-primary hover:underline" href="https://github.com/MadeBaruna/paimon-moe-api" target="_blank"
+          <a class="text-primary hover:underline" href="https://gamehot.net" rel="nofollow" target="_blank"
             >{$t('wish.import.faqs.a4.2')}</a
           >
         </p>

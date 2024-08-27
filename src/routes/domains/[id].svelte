@@ -52,7 +52,7 @@
 </script>
 
 <svelte:head>
-  <title>{domain.name} - Paimon.moe</title>
+  <title>{domain.name} - HoyoHub</title>
 </svelte:head>
 <div class="lg:ml-64 pt-20 lg:pt-8 max-w-screen-xl md:pl-4">
   <div class="flex flex-col items-start">

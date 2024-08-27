@@ -8,11 +8,18 @@
   try {
     data = await import(`../../data/characterData/${id}.json`);
   } catch (error) {
-    console.error(`Error loading file: ${error.message}`);
-    return { props: { id, data: null, error: "File not found" } };
+    console.error(`Error loading character data: ${error.message}`);
+    return { props: { id, data: null, buildData: null, error: "Character data not found" } };
   }
-  
-  const buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+
+  let buildData;
+  try {
+    buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+  } catch (error) {
+    console.error(`Error fetching build data: ${error.message}`);
+    return { props: { id, data, buildData: null, error: "Build data not found" } };
+  }
+
   return { props: { id, data, buildData } };
 }
 

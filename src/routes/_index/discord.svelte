@@ -38,7 +38,7 @@
     {$t('home.discord.message')}
   </p>
   <a
-    href="https://discord.gg/4nbWsCGjjE"
+    href="https://discord.gg/"
     target="_blank"
     class="flex justify-end items-center self-end lg:self-start text-white mt-4 bg-background-secondary rounded-xl py-2 px-4
     hover:bg-background transition-colors duration-100"

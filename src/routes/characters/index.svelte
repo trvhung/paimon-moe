@@ -456,7 +456,7 @@
           <div
             class="mt-12 mb-4 ml-4 mr-4 md:ml-8 md:mr-0 max-w-screen-xl md:flex items-center bg-background rounded-xl p-4"
           >
-            <img class="h-16 float-left md:float-none mr-2 md:mr-0" src="/images/paimon_faq.png" alt="Paimon" />
+            <img class="h-16 float-left md:float-none mr-2 md:mr-0" src="/images/paimon_faq.png" alt="HoyoHub" />
             <p class="md:ml-4 text-gray-200 ">{$t('characters.faq')}</p>
           </div>
         {/if}

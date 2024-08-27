@@ -12,7 +12,7 @@
       data-theme="dark"
       data-tweet-limit="1"
       data-chrome="noheader nofooter noborders transparent"
-      href="https://twitter.com/MadeBaruna?ref_src=twsrc%5Etfw">Tweets by MadeBaruna</a
+      href="https://twitter.com/">X</a
     > <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
   <a

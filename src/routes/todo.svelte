@@ -278,7 +278,7 @@
 </script>
 
 <svelte:head>
-  <title>Todo List - Paimon.moe</title>
+  <title>Todo List - Hoyohub</title>
   <meta
     name="description"
     content="Genshin Impact Todo List to plan and track items and mora you need, you can also see resin approximation needed to farm the items!"

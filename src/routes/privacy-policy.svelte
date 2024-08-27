@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Privacy Policy - Paimon.moe</title>
+  <title>Privacy Policy - Hoyohub</title>
 </svelte:head>
 
 <div class="lg:ml-64 pt-20 lg:pt-8 max-w-screen-xl">

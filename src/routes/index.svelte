@@ -62,14 +62,14 @@
 </script>
 
 <svelte:head>
-  <title>Paimon.moe</title>
+  <title>Hoyohub - Genshin Characters List | Build and Team</title>
   <meta
     name="description"
-    content="Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter."
+    content="Companion for Genshin Impact! Plan farming, track progress, and find top character builds ranked by power and versatility."
   />
   <meta
     property="og:description"
-    content="Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter."
+    content="Companion for Genshin Impact! Plan farming, track progress, and find top character builds ranked by power and versatility."
   />
 </svelte:head>
 <div class="lg:ml-64 pt-16 lg:pt-4 md:px-4">

@@ -3,26 +3,12 @@
   import weaponData from '../../data/weapons/en.json';
 
   export async function load({ params, fetch }) {
-  const { id } = params;
-  let data;
-  try {
-    data = await import(`../../data/characterData/${id}.json`);
-  } catch (error) {
-    console.error(`Error loading character data: ${error.message}`);
-    return { props: { id, data: null, buildData: null, error: "Character data not found" } };
+    const { id } = params;
+    const data = await import(`../../data/characterData/${id}.json`);
+    const buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+
+    return { props: { id, data, buildData } };
   }
-
-  let buildData;
-  try {
-    buildData = await (await fetch(`/characters/build/${id}.json`)).json();
-  } catch (error) {
-    console.error(`Error fetching build data: ${error.message}`);
-    return { props: { id, data, buildData: null, error: "Build data not found" } };
-  }
-
-  return { props: { id, data, buildData } };
-}
-
 </script>
 
 <script>

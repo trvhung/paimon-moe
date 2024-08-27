@@ -57,7 +57,7 @@
 </script>
 
 <svelte:head>
-  <title>Radiant Spincrystal - Paimon.moe</title>
+  <title>Radiant Spincrystal - HoyoHub.com</title>
   <meta name="description" content="Genshin Impact Radiant Spincrystal Tracker" />
   <meta property="og:description" content="Genshin Impact Radiant Spincrystal Tracker" />
 </svelte:head>

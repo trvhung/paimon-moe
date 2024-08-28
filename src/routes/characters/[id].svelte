@@ -5,12 +5,12 @@
   export async function load({ params }) {
   const { id } = params;
   try {
-    const dataResponse = await fetch(`/data/characterData/${id}.json`);
+    const dataResponse = await fetch('../../data/characterData/${id}.json');
     if (!dataResponse.ok) throw new Error('Data not found');
 
     const data = await dataResponse.json();
 
-    const buildResponse = await fetch(`/characters/build/${id}.json`);
+    const buildResponse = await fetch('/characters/build/${id}.json');
     if (!buildResponse.ok) throw new Error('Build data not found');
 
     const buildData = await buildResponse.json();

@@ -2,13 +2,26 @@
   import artifactData from '../../data/artifacts/en.json';
   import weaponData from '../../data/weapons/en.json';
 
-  export async function load({ params, fetch }) {
-    const { id } = params;
-    const data = await import(`../../data/characterData/${id}.json`);
-    const buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+  export async function load({ params }) {
+  const { id } = params;
+  try {
+    const dataResponse = await fetch(`/data/characterData/${id}.json`);
+    if (!dataResponse.ok) throw new Error('Data not found');
+
+    const data = await dataResponse.json();
+
+    const buildResponse = await fetch(`/characters/build/${id}.json`);
+    if (!buildResponse.ok) throw new Error('Build data not found');
+
+    const buildData = await buildResponse.json();
 
     return { props: { id, data, buildData } };
+  } catch (error) {
+    console.error('Error loading data:', error);
+    return { status: 404, error: new Error('Not Found') };
   }
+}
+
 </script>
 
 <script>

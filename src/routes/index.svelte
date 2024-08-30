@@ -3,9 +3,17 @@
     const promoted = ['nilou', 'kaveh', 'ningguang'];
     const builds = {};
     for (const p of promoted) {
-      const response = await fetch(`/characters/build/${p}.json`);
-      const b = await response.json();
-      builds[p] = b;
+      try {
+        const response = await fetch(`/characters/build/${p}.json`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const b = await response.json();
+        builds[p] = b;
+      } catch (error) {
+        console.error(`Failed to fetch build data for ${p}:`, error);
+        builds[p] = { roles: {} }; // Provide a default structure
+      }
     }
 
     return {

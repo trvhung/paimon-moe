@@ -4,21 +4,21 @@
 
   export async function load({ params, fetch }) {
     const { id } = params;
-    const data = await import('../../data/characterData/${id}.json');
+    const data = await import(`../../data/characterData/${id}.json`);
     let buildData = {};
     try {
-      const response = await fetch('/characters/build/${id}.json');
+      const response = await fetch(`/characters/build/${id}.json`);
       if (response.ok) {
         buildData = await response.json();
       } else if (response.status === 404) {
-        console.warn('Build data not found for character ${id}'');
+        console.warn(`Build data not found for character ${id}`);
         buildData = {}; // Set an empty object if build data is not found
       } else {
-        console.error('Failed to fetch build data: ${response.statusText}');
+        console.error(`Failed to fetch build data: ${response.statusText}`);
         buildData = {}; // Set an empty object on other errors
       }
     } catch (error) {
-      console.error('Error fetching build data for ${id}:', error);
+      console.error(`Error fetching build data for ${id}:`, error);
       buildData = {}; // Set an empty object on any caught errors
     }
       console.error(`Error fetching build data for ${id}:`, error);

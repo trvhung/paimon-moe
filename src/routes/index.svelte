@@ -12,8 +12,7 @@
         builds[p] = b;
       } catch (error) {
         console.error(`Failed to fetch build data for ${p}:`, error);
-        // Provide a default or placeholder data
-        builds[p] = { roles: {} };
+        builds[p] = null; // or some default value
       }
     }
 

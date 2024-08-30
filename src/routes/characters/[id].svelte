@@ -13,10 +13,10 @@
       } else if (response.status === 404) {
         console.warn(`Build data not found for character ${id}`);
       } else {
-        console.error(`Error fetching build data for character ${id}: ${response.statusText}`);
+        throw new Error(`Failed to fetch build data: ${response.statusText}`);
       }
     } catch (error) {
-      console.error(`Error fetching build data for character ${id}:`, error);
+      console.error(`Error fetching build data for ${id}:`, error);
     }
 
     return { props: { id, data, buildData } };

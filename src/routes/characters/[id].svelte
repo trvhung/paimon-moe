@@ -4,8 +4,8 @@
 
   export async function load({ params, fetch }) {
     const { id } = params;
-    const data = await import('../../data/characterData/${id}.json');
-    const buildData = await (await fetch('/characters/build/${id}.json')).json();
+    const data = await import(`../../data/characterData/${id}.json`);
+    const buildData = await (await fetch(`/characters/build/${id}.json`)).json();
 
     return { props: { id, data, buildData } };
   }

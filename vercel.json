@@ -1,15 +1,26 @@
 {
-  "builds": [
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "routes": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "__sapper__/export"
-      }
+      "src": "/(.*)",
+      "dest": "/index.html",
+      "status": 200
     }
   ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "builds": [
+    {
+      "src": "scripts/createEnv.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "outputDirectory": "__sapper__/export",
+  "command": "yarn export"
 }

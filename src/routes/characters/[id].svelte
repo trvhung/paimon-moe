@@ -1,16 +1,24 @@
 <script context="module">
   import artifactData from '../../data/artifacts/en.json';
   import weaponData from '../../data/weapons/en.json';
+  import { error } from '@sveltejs/kit';
+  import { dev } from '$app/environment';
 
   export async function load({ params, fetch }) {
     const { id } = params;
     const data = await import(`../../data/characterData/${id}.json`);
     let buildData = {};
     try {
-      buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+      const response = await fetch(`/characters/build/${id}.json`);
+      if (response.ok) {
+        buildData = await response.json();
+      } else {
+        console.warn(`No build data found for ${id}`);
+        buildData = { roles: {} };
+      }
     } catch (error) {
       console.error(`Failed to fetch build data for ${id}:`, error);
-      // Optionally, you can set a default value or handle the error in some way
+      buildData = { roles: {} };
     }
 
     return { props: { id, data, buildData } };

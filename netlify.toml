@@ -1,5 +1,5 @@
 [build]
-  publish = "__sapper__/export"
+  publish = "build"
   command = "node scripts/createEnv.js && NODE_ENV=production yarn build"
 
 [[redirects]]

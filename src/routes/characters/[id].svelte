@@ -7,8 +7,16 @@
     const data = await import(`../../data/characterData/${id}.json`);
     let buildData = {};
     try {
-      buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+      const response = await fetch(`/characters/build/${id}.json`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      buildData = await response.json();
     } catch (error) {
+      console.warn(`Error fetching build data for ${id}:`, error);
+      // Continue execution even if there's a 404 or other error
+      buildData = {};
+    }
       console.error(`Failed to fetch build data for ${id}:`, error);
       // If the fetch fails, we'll use an empty object for buildData
     }

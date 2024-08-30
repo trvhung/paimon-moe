@@ -5,7 +5,19 @@
   export async function load({ params, fetch }) {
     const { id } = params;
     const data = await import(`../../data/characterData/${id}.json`);
-    const buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+    let buildData = {};
+    try {
+      const response = await fetch(`/characters/build/${id}.json`);
+      if (response.ok) {
+        buildData = await response.json();
+      } else if (response.status === 404) {
+        console.warn(`Build data not found for character ${id}`);
+      } else {
+        console.error(`Error fetching build data for character ${id}: ${response.statusText}`);
+      }
+    } catch (error) {
+      console.error(`Error fetching build data for character ${id}:`, error);
+    }
 
     return { props: { id, data, buildData } };
   }

@@ -5,7 +5,13 @@
   export async function load({ params, fetch }) {
     const { id } = params;
     const data = await import(`../../data/characterData/${id}.json`);
-    const buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+    let buildData = {};
+    try {
+      buildData = await (await fetch(`/characters/build/${id}.json`)).json();
+    } catch (error) {
+      console.error(`Failed to fetch build data for ${id}:`, error);
+      // If the fetch fails, we'll use an empty object for buildData
+    }
 
     return { props: { id, data, buildData } };
   }

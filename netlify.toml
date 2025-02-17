@@ -6,4 +6,8 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
+[[redirects]]
+  from = "https://www.hoyohub.com/*"
+  to = "https://hoyohub.com/:splat"
+  status = 301
+  force = true

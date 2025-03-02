@@ -47,6 +47,11 @@
     '4.5',
     '4.6',
     '4.7',
+    '4.8',
+    '5.0',
+    '5.1',
+    '5.2',
+    '5.3',
   ].reduce((acc, version) => {
     const parent = version.split('.')[0];
     if (!acc[parent]) acc[parent] = [];
@@ -127,7 +132,7 @@
         {/each}
       </div>
       <div class="h-[1px] bg-black/30" />
-      <div class="grid grid-cols-4 gap-1">
+      <div class="grid grid-cols-5 gap-1">
         {#each options[active][1] as ver}
           <button
             on:click={() => select(ver)}

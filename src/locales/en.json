@@ -960,6 +960,7 @@
     "enkanomiya": "Enkanomiya",
     "chasm": "Chasm",
     "sumeru": "Sumeru",
+    "natlan": "Natlan",
     "setEmpty": "Set as empty",
     "emptyTime": "Time when the spot is empty:",
     "clear": "Clear",
@@ -991,7 +992,8 @@
     "sortByTime": "Sorted by first release",
     "sortByRerun": "Sorted by oldest re-run",
     "bannerTitle": "Character Release Timeline",
-    "bannerSubtitle": "See when the character is released and their last re-run"
+    "bannerSubtitle": "See when the character is released and their last re-run",
+    "showStandard": "Show Standard Banners"
   },
   "tcg": {
     "title": "Genius Invokation TCG",

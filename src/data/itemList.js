@@ -1512,4 +1512,272 @@ export const itemList = {
     id: 'trishiraite',
     name: 'Trishiraite',
   },
+
+  silken_feather: { id: 'silken_feather', name: 'Silken Feather', rarity: 5 },
+
+  sprayfeather_gill: {
+    id: 'sprayfeather_gill',
+    name: 'Sprayfeather Gill',
+  },
+  seasoned_fang: {
+    id: 'seasoned_fang',
+    name: 'Seasoned Fang',
+    rarity: 2,
+  },
+  tyrants_fang: {
+    id: 'tyrants_fang',
+    name: "Tyrant's Fang",
+    rarity: 3,
+  },
+  juvenile_fang: {
+    id: 'juvenile_fang',
+    name: 'Juvenile Fang',
+    rarity: 1,
+  },
+  mark_of_the_binding_blessing: {
+    id: 'mark_of_the_binding_blessing',
+    name: 'Mark of the Binding Blessing',
+    rarity: 4,
+  },
+  warriors_metal_whistle: {
+    id: 'warriors_metal_whistle',
+    name: "Warrior's Metal Whistle",
+    rarity: 2,
+  },
+  saurian_crowned_warriors_golden_whistle: {
+    id: 'saurian_crowned_warriors_golden_whistle',
+    name: "Saurian-Crowned Warrior's Golden Whistle",
+    rarity: 3,
+  },
+  sentrys_wooden_whistle: {
+    id: 'sentrys_wooden_whistle',
+    name: "Sentry's Wooden Whistle",
+    rarity: 1,
+  },
+  overripe_flamegranate: {
+    id: 'overripe_flamegranate',
+    name: 'Overripe Flamegranate',
+    rarity: 4,
+  },
+  quenepa_berry: {
+    id: 'quenepa_berry',
+    name: 'Quenepa Berry',
+  },
+  teachings_of_contention: {
+    id: 'teachings_of_contention',
+    name: 'Teachings of Contention',
+    day: ['monday', 'thursday'],
+    rarity: 2,
+  },
+  guide_to_contention: {
+    id: 'guide_to_contention',
+    name: 'Guide to Contention',
+    day: ['monday', 'thursday'],
+    rarity: 3,
+    parent: 'teachings_of_contention',
+  },
+  philosophies_of_contention: {
+    id: 'philosophies_of_contention',
+    name: 'Philosophies of Contention',
+    day: ['monday', 'thursday'],
+    rarity: 4,
+    parent: 'teachings_of_contention',
+  },
+  teachings_of_conflict: {
+    id: 'teachings_of_conflict',
+    name: 'Teachings of Conflict',
+    day: ['wednesday', 'saturday'],
+    rarity: 2,
+  },
+  guide_to_conflict: {
+    id: 'guide_to_conflict',
+    name: 'Guide to Conflict',
+    day: ['wednesday', 'saturday'],
+    rarity: 3,
+    parent: 'teachings_of_conflict',
+  },
+  philosophies_of_conflict: {
+    id: 'philosophies_of_conflict',
+    name: 'Philosophies of Conflict',
+    day: ['wednesday', 'saturday'],
+    rarity: 4,
+    parent: 'teachings_of_conflict',
+  },
+  blazing_sacrificial_hearts_terror: {
+    id: 'blazing_sacrificial_hearts_terror',
+    name: "Blazing Sacrificial Heart's Terror",
+    rarity: 2,
+  },
+  blazing_sacrificial_hearts_hesitance: {
+    id: 'blazing_sacrificial_hearts_hesitance',
+    name: "Blazing Sacrificial Heart's Hesitance",
+    rarity: 3,
+  },
+  blazing_sacrificial_hearts_resolve: {
+    id: 'blazing_sacrificial_hearts_resolve',
+    name: "Blazing Sacrificial Heart's Resolve",
+    rarity: 4,
+  },
+  blazing_sacrificial_hearts_splendor: {
+    id: 'blazing_sacrificial_hearts_splendor',
+    name: "Blazing Sacrificial Heart's Splendor",
+    rarity: 5,
+  },
+  shard_of_a_shattered_will: {
+    id: 'shard_of_a_shattered_will',
+    name: 'Shard of a Shattered Will',
+    rarity: 2,
+  },
+  locus_of_a_clear_will: {
+    id: 'locus_of_a_clear_will',
+    name: 'Locus of a Clear Will',
+    rarity: 3,
+  },
+  sigil_of_a_striding_will: {
+    id: 'sigil_of_a_striding_will',
+    name: 'Sigil of a Striding Will',
+    rarity: 4,
+  },
+  night_winds_mystic_consideration: {
+    id: 'night_winds_mystic_consideration',
+    name: "Night-Wind's Mystic Consideration",
+    rarity: 2,
+  },
+  night_winds_mystic_premonition: {
+    id: 'night_winds_mystic_premonition',
+    name: "Night-Wind's Mystic Premonition",
+    rarity: 3,
+  },
+  night_winds_mystic_augury: {
+    id: 'night_winds_mystic_augury',
+    name: "Night-Wind's Mystic Augury",
+    rarity: 4,
+  },
+  night_winds_mystic_revelation: {
+    id: 'night_winds_mystic_revelation',
+    name: "Night-Wind's Mystic Revelation",
+    rarity: 5,
+  },
+  axis_of_the_secret_source: {
+    id: 'axis_of_the_secret_source',
+    name: 'Axis of the Secret Source',
+    rarity: 2,
+  },
+  sheath_of_the_secret_source: {
+    id: 'sheath_of_the_secret_source',
+    name: 'Sheath of the Secret Source',
+    rarity: 3,
+  },
+  heart_of_the_secret_source: {
+    id: 'heart_of_the_secret_source',
+    name: 'Heart of the Secret Source',
+    rarity: 4,
+  },
+  ignited_stone: {
+    id: 'ignited_stone',
+    name: 'Ignited Stone',
+    rarity: 2,
+  },
+  ignited_seed_of_life: {
+    id: 'ignited_seed_of_life',
+    name: 'Ignited Seed of Life',
+    rarity: 3,
+  },
+  ignited_seeing_eye: {
+    id: 'ignited_seeing_eye',
+    name: 'Ignited Seeing Eye',
+    rarity: 4,
+  },
+  delirious_decadence_of_the_sacred_lord: {
+    id: 'delirious_decadence_of_the_sacred_lord',
+    name: 'Delirious Decadence of the Sacred Lord',
+    rarity: 2,
+  },
+  delirious_desolation_of_the_sacred_lord: {
+    id: 'delirious_desolation_of_the_sacred_lord',
+    name: 'Delirious Desolation of the Sacred Lord',
+    rarity: 3,
+  },
+  delirious_demeanor_of_the_sacred_lord: {
+    id: 'delirious_demeanor_of_the_sacred_lord',
+    name: 'Delirious Demeanor of the Sacred Lord',
+    rarity: 4,
+  },
+  delirious_divinity_of_the_sacred_lord: {
+    id: 'delirious_divinity_of_the_sacred_lord',
+    name: 'Delirious Divinity of the Sacred Lord',
+    rarity: 5,
+  },
+  saurian_claw_succulent: {
+    id: 'saurian_claw_succulent',
+    name: 'Saurian Claw Succulent',
+  },
+  denial_and_judgment: { id: 'denial_and_judgment', name: 'Denial and Judgment' },
+  teachings_of_kindling: {
+    id: 'teachings_of_kindling',
+    name: 'Teachings of Kindling',
+    day: ['tuesday', 'friday'],
+    rarity: 2,
+  },
+  guide_to_kindling: {
+    id: 'guide_to_kindling',
+    name: 'Guide to Kindling',
+    day: ['tuesday', 'friday'],
+    rarity: 3,
+    parent: 'teachings_of_kindling',
+  },
+  philosophies_of_kindling: {
+    id: 'philosophies_of_kindling',
+    name: 'Philosophies of Kindling',
+    day: ['tuesday', 'friday'],
+    rarity: 4,
+    parent: 'teachings_of_kindling',
+  },
+  gold_inscribed_secret_source_core: {
+    id: 'gold_inscribed_secret_source_core',
+    name: 'Gold-Inscribed Secret Source Core',
+    rarity: 4,
+  },
+  brilliant_chrysanthemum: {
+    id: 'brilliant_chrysanthemum',
+    name: 'Brilliant Chrysanthemum',
+  },
+  ensnaring_gaze: {
+    id: 'ensnaring_gaze',
+    name: 'Ensnaring Gaze',
+    rarity: 4,
+  },
+  withering_purpurbloom: {
+    id: 'withering_purpurbloom',
+    name: 'Withering Purpurbloom',
+  },
+  glowing_hornshroom: {
+    id: 'glowing_hornshroom',
+    name: 'Glowing Hornshroom',
+  },
+  refractive_bud: {
+    id: 'refractive_bud',
+    name: 'Refractive Bud',
+    rarity: 2,
+  },
+  bewildering_broadleaf: {
+    id: 'bewildering_broadleaf',
+    name: 'Bewildering Broadleaf',
+    rarity: 3,
+  },
+  illusory_leafcoil: {
+    id: 'illusory_leafcoil',
+    name: 'Illusory Leafcoil',
+    rarity: 4,
+  },
+  eroded_horn: { id: 'eroded_horn', name: 'Eroded Horn' },
+  talisman_of_the_enigmatic_land: {
+    id: 'talisman_of_the_enigmatic_land',
+    name: 'Talisman of the Enigmatic Land',
+    rarity: 4,
+  },
+  eroded_sunfire: {
+    id: 'eroded_sunfire',
+    name: 'Eroded Sunfire',
+  },
 };

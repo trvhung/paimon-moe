@@ -1744,6 +1744,151 @@ export const characters = {
     },
     element: elements.cryo,
   },
+  chasca: {
+    id: 'chasca',
+    name: 'Chasca',
+    rarity: 5,
+    weapon: weapons.bow,
+    stats: {
+      hp: 9797,
+      atk: 347,
+      def: 615,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 3,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 2,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 10,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 4,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 20,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 8,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 30,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 12,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 45,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 20,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 60,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.juvenile_fang, itemList.seasoned_fang, itemList.tyrants_fang],
+      book: [itemList.teachings_of_conflict, itemList.guide_to_conflict, itemList.philosophies_of_conflict],
+      boss: itemList.silken_feather,
+    },
+    element: elements.anemo,
+  },
   chevreuse: {
     id: 'chevreuse',
     name: 'Chevreuse',
@@ -2176,6 +2321,151 @@ export const characters = {
       material: [itemList.damaged_mask, itemList.stained_mask, itemList.ominous_mask],
       book: [itemList.teachings_of_diligence, itemList.guide_to_diligence, itemList.philosophies_of_diligence],
       boss: itemList.dvalins_sigh,
+    },
+    element: elements.cryo,
+  },
+  citlali: {
+    id: 'citlali',
+    name: 'Citlali',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 11634,
+      atk: 127,
+      def: 763,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 3,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 2,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 10,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 4,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 20,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 8,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 30,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 12,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 45,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 20,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 60,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.juvenile_fang, itemList.seasoned_fang, itemList.tyrants_fang],
+      book: [itemList.teachings_of_kindling, itemList.guide_to_kindling, itemList.philosophies_of_kindling],
+      boss: itemList.denial_and_judgment,
     },
     element: elements.cryo,
   },
@@ -3193,6 +3483,151 @@ export const characters = {
       boss: itemList.bloodjade_branch,
     },
     element: elements.electro,
+  },
+  emilie: {
+    id: 'emilie',
+    name: 'Emilie',
+    rarity: 5,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 13568,
+      atk: 335,
+      def: 730,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 3,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 2,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 10,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 4,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 20,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 8,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 30,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 12,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 45,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.fragment_of_a_golden_melody,
+            amount: 20,
+          },
+          {
+            item: itemList.lakelight_lily,
+            amount: 60,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.meshing_gear, itemList.mechanical_spur_gear, itemList.artificed_dynamic_gear],
+      book: [itemList.teachings_of_order, itemList.guide_to_order, itemList.philosophies_of_order],
+      boss: itemList.silken_feather,
+    },
+    element: elements.dendro,
   },
   eula: {
     id: 'eula',
@@ -4644,6 +5079,155 @@ export const characters = {
     },
     element: elements.anemo,
   },
+  kachina: {
+    id: 'kachina',
+    name: 'Kachina',
+    rarity: 4,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 11799,
+      atk: 217,
+      def: 792,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 2,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 4,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 8,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 12,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 20,
+          },
+          {
+            item: itemList.quenepa_berry,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_conflict, itemList.guide_to_conflict, itemList.philosophies_of_conflict],
+      boss: itemList.fading_candle,
+    },
+    element: elements.geo,
+  },
   kaedehara_kazuha: {
     id: 'kaedehara_kazuha',
     name: 'Kaedehara Kazuha',
@@ -5514,6 +6098,151 @@ export const characters = {
     },
     element: elements.electro,
   },
+  kinich: {
+    id: 'kinich',
+    name: 'Kinich',
+    rarity: 5,
+    weapon: weapons.claymore,
+    stats: {
+      hp: 12858,
+      atk: 332,
+      def: 802,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 3,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 2,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 10,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 4,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 20,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 8,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 30,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 12,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 45,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.overripe_flamegranate,
+            amount: 20,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 60,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.juvenile_fang, itemList.seasoned_fang, itemList.tyrants_fang],
+      book: [itemList.teachings_of_kindling, itemList.guide_to_kindling, itemList.philosophies_of_kindling],
+      boss: itemList.denial_and_judgment,
+    },
+    element: elements.dendro,
+  },
   kirara: {
     id: 'kirara',
     name: 'Kirara',
@@ -6093,6 +6822,151 @@ export const characters = {
       boss: itemList.tears_of_the_calamitous_god,
     },
     element: elements.electro,
+  },
+  lan_yan: {
+    id: 'lan_yan',
+    name: 'Lan Yan',
+    rarity: 4,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 9244,
+      atk: 251,
+      def: 580,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.clearwater_jade,
+            amount: 3,
+          },
+          {
+            item: itemList.whopperflower_nectar,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 2,
+          },
+          {
+            item: itemList.clearwater_jade,
+            amount: 10,
+          },
+          {
+            item: itemList.whopperflower_nectar,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 4,
+          },
+          {
+            item: itemList.clearwater_jade,
+            amount: 20,
+          },
+          {
+            item: itemList.shimmering_nectar,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 8,
+          },
+          {
+            item: itemList.clearwater_jade,
+            amount: 30,
+          },
+          {
+            item: itemList.shimmering_nectar,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 12,
+          },
+          {
+            item: itemList.clearwater_jade,
+            amount: 45,
+          },
+          {
+            item: itemList.energy_nectar,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 20,
+          },
+          {
+            item: itemList.clearwater_jade,
+            amount: 60,
+          },
+          {
+            item: itemList.energy_nectar,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.whopperflower_nectar, itemList.shimmering_nectar, itemList.energy_nectar],
+      book: [itemList.teachings_of_diligence, itemList.guide_to_diligence, itemList.philosophies_of_diligence],
+      boss: itemList.eroded_sunfire,
+    },
+    element: elements.anemo,
   },
   layla: {
     id: 'layla',
@@ -6674,6 +7548,155 @@ export const characters = {
     },
     element: elements.pyro,
   },
+  mavuika: {
+    id: 'mavuika',
+    name: 'Mavuika',
+    rarity: 5,
+    weapon: weapons.claymore,
+    stats: {
+      hp: 12552,
+      atk: 359,
+      def: 792,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 2,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 4,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 8,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 12,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.agnidus_agate_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 20,
+          },
+          {
+            item: itemList.withering_purpurbloom,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_contention, itemList.guide_to_contention, itemList.philosophies_of_contention],
+      boss: itemList.eroded_horn,
+    },
+    element: elements.pyro,
+  },
   mika: {
     id: 'mika',
     name: 'Mika',
@@ -6961,6 +7984,155 @@ export const characters = {
       material: [itemList.whopperflower_nectar, itemList.shimmering_nectar, itemList.energy_nectar],
       book: [itemList.teachings_of_resistance, itemList.guide_to_resistance, itemList.philosophies_of_resistance],
       boss: itemList.ring_of_boreas,
+    },
+    element: elements.hydro,
+  },
+  mualani: {
+    id: 'mualani',
+    name: 'Mualani',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 15185,
+      atk: 182,
+      def: 570,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 2,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 4,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 8,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 12,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 20,
+          },
+          {
+            item: itemList.sprayfeather_gill,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_contention, itemList.guide_to_contention, itemList.philosophies_of_contention],
+      boss: itemList.lightless_mass,
     },
     element: elements.hydro,
   },
@@ -7833,6 +9005,151 @@ export const characters = {
       boss: itemList.dvalins_claw,
     },
     element: elements.geo,
+  },
+  ororon: {
+    id: 'ororon',
+    name: 'Ororon',
+    rarity: 4,
+    weapon: weapons.bow,
+    stats: {
+      hp: 9244,
+      atk: 244,
+      def: 587,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 3,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 2,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 10,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 4,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 20,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 8,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 30,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 12,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 45,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.mark_of_the_binding_blessing,
+            amount: 20,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 60,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.juvenile_fang, itemList.seasoned_fang, itemList.tyrants_fang],
+      book: [itemList.teachings_of_kindling, itemList.guide_to_kindling, itemList.philosophies_of_kindling],
+      boss: itemList.lightless_silk_string,
+    },
+    element: elements.electro,
   },
   qiqi: {
     id: 'qiqi',
@@ -11198,6 +12515,155 @@ export const characters = {
     },
     element: elements.anemo,
   },
+  xilonen: {
+    id: 'xilonen',
+    name: 'Xilonen',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 12405,
+      atk: 275,
+      def: 930,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.brilliant_chrysanthemum,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 2,
+          },
+          {
+            item: itemList.brilliant_chrysanthemum,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 4,
+          },
+          {
+            item: itemList.brilliant_chrysanthemum,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 8,
+          },
+          {
+            item: itemList.brilliant_chrysanthemum,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 12,
+          },
+          {
+            item: itemList.brilliant_chrysanthemum,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.gold_inscribed_secret_source_core,
+            amount: 20,
+          },
+          {
+            item: itemList.brilliant_chrysanthemum,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_kindling, itemList.guide_to_kindling, itemList.philosophies_of_kindling],
+      boss: itemList.mirror_of_mushin,
+    },
+    element: elements.geo,
+  },
   xingqiu: {
     id: 'xingqiu',
     name: 'Xingqiu',
@@ -12212,6 +13678,152 @@ export const characters = {
       boss: itemList.dragon_lords_crown,
     },
     element: elements.pyro,
+  },
+  yumemizuki_mizuki: {
+    id: 'yumemizuki_mizuki',
+    name: 'Yumemizuki Mizuki',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 12736,
+      atk: 215,
+      def: 757,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.sea_ganoderma,
+            amount: 3,
+          },
+          {
+            item: itemList.old_handguard,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 2,
+          },
+          {
+            item: itemList.sea_ganoderma,
+            amount: 10,
+          },
+          {
+            item: itemList.old_handguard,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 4,
+          },
+          {
+            item: itemList.sea_ganoderma,
+            amount: 20,
+          },
+          {
+            item: itemList.kageuchi_handguard,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 8,
+          },
+          {
+            item: itemList.sea_ganoderma,
+            amount: 30,
+          },
+          {
+            item: itemList.kageuchi_handguard,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 12,
+          },
+          {
+            item: itemList.sea_ganoderma,
+            amount: 45,
+          },
+          {
+            item: itemList.famed_handguard,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.talisman_of_the_enigmatic_land,
+            amount: 20,
+          },
+          {
+            item: itemList.sea_ganoderma,
+            amount: 60,
+          },
+          {
+            item: itemList.famed_handguard,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.old_handguard, itemList.kageuchi_handguard, itemList.famed_handguard],
+      book: [itemList.teachings_of_transience, itemList.guide_to_transience, itemList.philosophies_of_transience],
+      boss: itemList.fading_candle,
+    },
+    element: elements.anemo,
+    new: true,
   },
   yun_jin: {
     id: 'yun_jin',

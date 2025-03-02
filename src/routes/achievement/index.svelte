@@ -173,7 +173,7 @@
     let filterComission = [];
     for (const e of typeFilter) {
       if (e.value === 'commissions') {
-        filterComission = ['mondstadt', 'liyue', 'inazuma', 'sumeru'];
+        filterComission = ['mondstadt', 'liyue', 'inazuma', 'sumeru', 'natlan'];
         break;
       }
 
@@ -394,7 +394,7 @@
         <VersionSelect
           bind:value={versionFilter}
           placeholder={$t('achievement.version')}
-          className="w-full md:w-48"
+          className="w-full md:w-56"
           on:change={updateSelectFilter}
         />
         <Select

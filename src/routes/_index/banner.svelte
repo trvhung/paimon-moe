@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    navia: {
-      name: 'Navia',
+    sigewinne: {
+      name: 'Sigewinne',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    nilou: {
-      name: 'Nilou',
+    yumemizuki_mizuki: {
+      name: 'Yumemizuki Mizuki',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300068;
-  const image = 'nilou_navia.png';
+  const bannerId = 300078;
+  const image = 'sigewinne mizuki.png';
   const width = 800;
-  const height = 405;
+  const height = 464;
 
   let loading = true;
   let user = '';

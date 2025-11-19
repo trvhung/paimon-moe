@@ -4,6 +4,151 @@ import { elements } from './elements';
 import { weapons } from './weapons';
 
 export const characters = {
+  aino: {
+    id: 'aino',
+    name: 'Aino',
+    rarity: 4,
+    weapon: weapons.claymore,
+    stats: {
+      hp: 11201,
+      atk: 242,
+      def: 607,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 3,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 2,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 10,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 4,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 20,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 8,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 30,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 12,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 45,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 20,
+          },
+          {
+            item: itemList.portable_bearing,
+            amount: 60,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.broken_drive_shaft, itemList.reinforced_drive_shaft, itemList.precision_drive_shaft],
+      book: [itemList.teachings_of_elysium, itemList.guide_to_elysium, itemList.philosophies_of_elysium],
+      boss: itemList.silken_feather,
+    },
+    element: elements.hydro,
+  },
   albedo: {
     id: 'albedo',
     name: 'Albedo',
@@ -2904,6 +3049,151 @@ export const characters = {
     },
     element: elements.electro,
   },
+  dahlia: {
+    id: 'dahlia',
+    name: 'Dahlia',
+    rarity: 4,
+    weapon: weapons.sword,
+    stats: {
+      hp: 12506,
+      atk: 189,
+      def: 560,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.calla_lily,
+            amount: 3,
+          },
+          {
+            item: itemList.firm_arrowhead,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 2,
+          },
+          {
+            item: itemList.calla_lily,
+            amount: 10,
+          },
+          {
+            item: itemList.firm_arrowhead,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 4,
+          },
+          {
+            item: itemList.calla_lily,
+            amount: 20,
+          },
+          {
+            item: itemList.sharp_arrowhead,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 8,
+          },
+          {
+            item: itemList.calla_lily,
+            amount: 30,
+          },
+          {
+            item: itemList.sharp_arrowhead,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 12,
+          },
+          {
+            item: itemList.calla_lily,
+            amount: 45,
+          },
+          {
+            item: itemList.weathered_arrowhead,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 20,
+          },
+          {
+            item: itemList.calla_lily,
+            amount: 60,
+          },
+          {
+            item: itemList.weathered_arrowhead,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.firm_arrowhead, itemList.sharp_arrowhead, itemList.weathered_arrowhead],
+      book: [itemList.teachings_of_ballad, itemList.guide_to_ballad, itemList.philosophies_of_ballad],
+      boss: itemList.eroded_scale_feather,
+    },
+    element: elements.hydro,
+  },
   dehya: {
     id: 'dehya',
     name: 'Dehya',
@@ -3629,6 +3919,151 @@ export const characters = {
     },
     element: elements.dendro,
   },
+  escoffier: {
+    id: 'escoffier',
+    name: 'Escoffier',
+    rarity: 5,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 13348,
+      atk: 347,
+      def: 732,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.beryl_conch,
+            amount: 3,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 2,
+          },
+          {
+            item: itemList.beryl_conch,
+            amount: 10,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 4,
+          },
+          {
+            item: itemList.beryl_conch,
+            amount: 20,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 8,
+          },
+          {
+            item: itemList.beryl_conch,
+            amount: 30,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 12,
+          },
+          {
+            item: itemList.beryl_conch,
+            amount: 45,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 20,
+          },
+          {
+            item: itemList.beryl_conch,
+            amount: 60,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.meshing_gear, itemList.mechanical_spur_gear, itemList.artificed_dynamic_gear],
+      book: [itemList.teachings_of_justice, itemList.guide_to_justice, itemList.philosophies_of_justice],
+      boss: itemList.eroded_horn,
+    },
+    element: elements.cryo,
+  },
   eula: {
     id: 'eula',
     name: 'Eula',
@@ -4064,6 +4499,151 @@ export const characters = {
     },
     element: elements.electro,
   },
+  flins: {
+    id: 'flins',
+    name: 'Flins',
+    rarity: 5,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 12491,
+      atk: 352,
+      def: 809,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 3,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 2,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 10,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 4,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 20,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 8,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 30,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 12,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 45,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.precision_kuuvahki_stamping_die,
+            amount: 20,
+          },
+          {
+            item: itemList.frostlamp_flower,
+            amount: 60,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.broken_drive_shaft, itemList.reinforced_drive_shaft, itemList.precision_drive_shaft],
+      book: [itemList.teachings_of_vagrancy, itemList.guide_to_vagrancy, itemList.philosophies_of_vagrancy],
+      boss: itemList.ascended_sample_queen,
+    },
+    element: elements.electro,
+  },
   freminet: {
     id: 'freminet',
     name: 'Freminet',
@@ -4209,6 +4789,7 @@ export const characters = {
     },
     element: elements.cryo,
   },
+
   furina: {
     id: 'furina',
     name: 'Furina',
@@ -5082,7 +5663,300 @@ export const characters = {
       boss: itemList.denial_and_judgment,
     },
     element: elements.electro,
-    new: true,
+  },
+  ifa: {
+    id: 'ifa',
+    name: 'Ifa',
+    rarity: 4,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 10081,
+      atk: 178,
+      def: 605,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 3,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.sparkless_statue_core,
+            amount: 2,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 10,
+          },
+          {
+            item: itemList.juvenile_fang,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.sparkless_statue_core,
+            amount: 4,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 20,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.sparkless_statue_core,
+            amount: 8,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 30,
+          },
+          {
+            item: itemList.seasoned_fang,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.sparkless_statue_core,
+            amount: 12,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 45,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.sparkless_statue_core,
+            amount: 20,
+          },
+          {
+            item: itemList.saurian_claw_succulent,
+            amount: 60,
+          },
+          {
+            item: itemList.tyrants_fang,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.juvenile_fang, itemList.seasoned_fang, itemList.tyrants_fang],
+      book: [itemList.teachings_of_conflict, itemList.guide_to_conflict, itemList.philosophies_of_conflict],
+      boss: itemList.ascended_sample_rook,
+    },
+    element: elements.anemo,
+  },
+  ineffa: {
+    id: 'ineffa',
+    name: 'Ineffa',
+    rarity: 5,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 12613,
+      atk: 330,
+      def: 828,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 3,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 2,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 10,
+          },
+          {
+            item: itemList.sentrys_wooden_whistle,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 4,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 20,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 8,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 30,
+          },
+          {
+            item: itemList.warriors_metal_whistle,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 12,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 45,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.secret_source_airflow_accumulator,
+            amount: 20,
+          },
+          {
+            item: itemList.glowing_hornshroom,
+            amount: 60,
+          },
+          {
+            item: itemList.saurian_crowned_warriors_golden_whistle,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [
+        itemList.sentrys_wooden_whistle,
+        itemList.warriors_metal_whistle,
+        itemList.saurian_crowned_warriors_golden_whistle,
+      ],
+      book: [itemList.teachings_of_conflict, itemList.guide_to_conflict, itemList.philosophies_of_conflict],
+      boss: itemList.eroded_sunfire,
+    },
+    element: elements.electro,
   },
   jean: {
     id: 'jean',
@@ -7118,6 +7992,151 @@ export const characters = {
     },
     element: elements.anemo,
   },
+  lauma: {
+    id: 'lauma',
+    name: 'Lauma',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 10654,
+      atk: 255,
+      def: 669,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 2,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 4,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 8,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 12,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.lightbearing_scale_feather,
+            amount: 20,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_moonlight, itemList.guide_to_moonlight, itemList.philosophies_of_moonlight],
+      boss: itemList.eroded_scale_feather,
+    },
+    element: elements.dendro,
+  },
   layla: {
     id: 'layla',
     name: 'Layla',
@@ -8575,6 +9594,152 @@ export const characters = {
       boss: itemList.lightless_silk_string,
     },
     element: elements.geo,
+  },
+  nefer: {
+    id: 'nefer',
+    name: 'Nefer',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 12704,
+      atk: 344,
+      def: 799,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 2,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 4,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 8,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 12,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.nagadus_emerald_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.radiant_antler,
+            amount: 20,
+          },
+          {
+            item: itemList.moonfall_silver,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_elysium, itemList.guide_to_elysium, itemList.philosophies_of_elysium],
+      boss: itemList.ascended_sample_rook,
+    },
+    element: elements.dendro,
+    new: true,
   },
   neuvillette: {
     id: 'neuvillette',
@@ -10751,6 +11916,151 @@ export const characters = {
     },
     element: elements.hydro,
   },
+  skirk: {
+    id: 'skirk',
+    name: 'Skirk',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 12417,
+      atk: 359,
+      def: 806,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.skysplit_gembloom,
+            amount: 3,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 2,
+          },
+          {
+            item: itemList.skysplit_gembloom,
+            amount: 10,
+          },
+          {
+            item: itemList.meshing_gear,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 4,
+          },
+          {
+            item: itemList.skysplit_gembloom,
+            amount: 20,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 8,
+          },
+          {
+            item: itemList.skysplit_gembloom,
+            amount: 30,
+          },
+          {
+            item: itemList.mechanical_spur_gear,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 12,
+          },
+          {
+            item: itemList.skysplit_gembloom,
+            amount: 45,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.ensnaring_gaze,
+            amount: 20,
+          },
+          {
+            item: itemList.skysplit_gembloom,
+            amount: 60,
+          },
+          {
+            item: itemList.artificed_dynamic_gear,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.meshing_gear, itemList.mechanical_spur_gear, itemList.artificed_dynamic_gear],
+      book: [itemList.teachings_of_contention, itemList.guide_to_contention, itemList.philosophies_of_contention],
+      boss: itemList.ascended_sample_knight,
+    },
+    element: elements.cryo,
+  },
   sucrose: {
     id: 'sucrose',
     name: 'Sucrose',
@@ -11939,7 +13249,6 @@ export const characters = {
       boss: itemList.eroded_scale_feather,
     },
     element: elements.electro,
-    new: true,
   },
   venti: {
     id: 'venti',

@@ -1813,4 +1813,250 @@ export const itemList = {
     name: 'Blazing Prismshell',
     rarity: 4,
   },
+
+  secret_source_airflow_accumulator: {
+    id: 'secret_source_airflow_accumulator',
+    name: 'Secret Source Airflow Accumulator',
+    rarity: 4,
+  },
+  ascended_sample_rook: { id: 'ascended_sample_rook', name: 'Ascended Sample: Rook' },
+  ascended_sample_knight: {
+    id: 'ascended_sample_knight',
+    name: 'Ascended Sample: Knight',
+  },
+
+  tattered_warrant: {
+    id: 'tattered_warrant',
+    name: 'Tattered Warrant',
+    rarity: 1,
+  },
+  immaculate_warrant: {
+    id: 'immaculate_warrant',
+    name: 'Immaculate Warrant',
+    rarity: 2,
+  },
+  frost_etched_warrant: {
+    id: 'frost_etched_warrant',
+    name: 'Frost-Etched Warrant',
+    rarity: 3,
+  },
+  moonfall_silver: {
+    id: 'moonfall_silver',
+    name: 'Moonfall Silver',
+  },
+  lightbearing_scale_feather: {
+    id: 'lightbearing_scale_feather',
+    name: 'Lightbearing Scale-Feather',
+    rarity: 4,
+  },
+
+  teachings_of_moonlight: {
+    id: 'teachings_of_moonlight',
+    name: 'Teachings of Moonlight',
+    day: ['monday', 'thursday'],
+    rarity: 2,
+  },
+  guide_to_moonlight: {
+    id: 'guide_to_moonlight',
+    name: 'Guide to Moonlight',
+    day: ['monday', 'thursday'],
+    rarity: 3,
+    parent: 'teachings_of_moonlight',
+  },
+  philosophies_of_moonlight: {
+    id: 'philosophies_of_moonlight',
+    name: 'Philosophies of Moonlight',
+    day: ['monday', 'thursday'],
+    rarity: 4,
+    parent: 'teachings_of_moonlight',
+  },
+  sundered_glory_of_the_far_north_scions: {
+    id: 'sundered_glory_of_the_far_north_scions',
+    name: 'Sundered Glory of the Far-North Scions',
+    rarity: 2,
+  },
+  lightless_bone: {
+    id: 'lightless_bone',
+    name: 'Lightless Bone',
+    rarity: 2,
+  },
+  unyielding_delusion_of_the_far_north_scions: {
+    id: 'unyielding_delusion_of_the_far_north_scions',
+    name: 'Unyielding Delusion of the Far-North Scions',
+    rarity: 3,
+  },
+  glowing_remains: {
+    id: 'glowing_remains',
+    name: 'Glowing Remains',
+    rarity: 3,
+  },
+  immaculate_warrant: {
+    id: 'immaculate_warrant',
+    name: 'Immaculate Warrant',
+    rarity: 2,
+  },
+  oblation_of_the_far_north_scions: {
+    id: 'oblation_of_the_far_north_scions',
+    name: 'Oblation of the Far-North Scions',
+    rarity: 4,
+  },
+  radiant_exoskeleton: {
+    id: 'radiant_exoskeleton',
+    name: 'Radiant Exoskeleton',
+    rarity: 4,
+  },
+  frost_etched_warrant: {
+    id: 'frost_etched_warrant',
+    name: 'Frost-Etched Warrant',
+    rarity: 3,
+  },
+  aureate_radiance_of_the_far_north_scions: {
+    id: 'aureate_radiance_of_the_far_north_scions',
+    name: 'Aureate Radiance of the Far-North Scions',
+    rarity: 5,
+  },
+  artful_device_fragment: {
+    id: 'artful_device_fragment',
+    name: 'Artful Device Fragment',
+    rarity: 2,
+  },
+  frostnights_glimmer: {
+    id: 'frostnights_glimmer',
+    name: "Frostnight's Glimmer",
+    rarity: 2,
+  },
+  broken_drive_shaft: {
+    id: 'broken_drive_shaft',
+    name: 'Broken Drive Shaft',
+    rarity: 1,
+  },
+  artful_device_replica: {
+    id: 'artful_device_replica',
+    name: 'Artful Device Replica',
+    rarity: 3,
+  },
+  frostnights_glow: {
+    id: 'frostnights_glow',
+    name: "Frostnight's Glow",
+    rarity: 3,
+  },
+  reinforced_drive_shaft: {
+    id: 'reinforced_drive_shaft',
+    name: 'Reinforced Drive Shaft',
+    rarity: 2,
+  },
+  artful_device_inheritance: {
+    id: 'artful_device_inheritance',
+    name: 'Artful Device Inheritance',
+    rarity: 4,
+  },
+  frostnights_glory: {
+    id: 'frostnights_glory',
+    name: "Frostnight's Glory",
+    rarity: 4,
+  },
+  precision_drive_shaft: {
+    id: 'precision_drive_shaft',
+    name: 'Precision Drive Shaft',
+    rarity: 3,
+  },
+  artful_device_wish: {
+    id: 'artful_device_wish',
+    name: 'Artful Device Wish',
+    rarity: 5,
+  },
+  precision_kuuvahki_stamping_die: {
+    id: 'precision_kuuvahki_stamping_die',
+    name: 'Precision Kuuvahki Stamping Die',
+    rarity: 4,
+  },
+  frostlamp_flower: {
+    id: 'frostlamp_flower',
+    name: 'Frostlamp Flower',
+  },
+  teachings_of_elysium: {
+    id: 'teachings_of_elysium',
+    name: 'Teachings of Elysium',
+    day: ['tuesday', 'friday'],
+    rarity: 2,
+  },
+  guide_to_elysium: {
+    id: 'guide_to_elysium',
+    name: 'Guide to Elysium',
+    day: ['tuesday', 'friday'],
+    rarity: 3,
+    parent: 'teachings_of_elysium',
+  },
+  philosophies_of_elysium: {
+    id: 'philosophies_of_elysium',
+    name: 'Philosophies of Elysium',
+    day: ['tuesday', 'friday'],
+    rarity: 4,
+    parent: 'teachings_of_elysium',
+  },
+  teachings_of_vagrancy: {
+    id: 'teachings_of_vagrancy',
+    name: 'Teachings of Vagrancy',
+    day: ['wednesday', 'saturday'],
+    rarity: 2,
+  },
+  guide_to_vagrancy: {
+    id: 'guide_to_vagrancy',
+    name: 'Guide to Vagrancy',
+    day: ['wednesday', 'saturday'],
+    rarity: 3,
+    parent: 'teachings_of_vagrancy',
+  },
+  philosophies_of_vagrancy: {
+    id: 'philosophies_of_vagrancy',
+    name: 'Philosophies of Vagrancy',
+    day: ['wednesday', 'saturday'],
+    rarity: 4,
+    parent: 'teachings_of_vagrancy',
+  },
+  ascended_sample_queen: { id: 'ascended_sample_queen', name: 'Ascended Sample: Queen' },
+  portable_bearing: {
+    id: 'portable_bearing',
+    name: 'Portable Bearing',
+  },
+  ember_of_long_night_flint: {
+    id: 'ember_of_long_night_flint',
+    name: 'Ember of Long Night Flint',
+    rarity: 2,
+  },
+  mistshroud_manifestation: {
+    id: 'mistshroud_manifestation',
+    name: 'Mistshroud Manifestation',
+    rarity: 2,
+  },
+  afterglow_of_long_night_flint: {
+    id: 'afterglow_of_long_night_flint',
+    name: 'Afterglow of Long Night Flint',
+    rarity: 3,
+  },
+  mistshroud_plate: {
+    id: 'mistshroud_plate',
+    name: 'Mistshroud Plate',
+    rarity: 3,
+  },
+  flare_of_long_night_flint: {
+    id: 'flare_of_long_night_flint',
+    name: 'Flare of Long Night Flint',
+    rarity: 4,
+  },
+  mistshroud_helmet: {
+    id: 'mistshroud_helmet',
+    name: 'Mistshroud Helmet',
+    rarity: 4,
+  },
+  blaze_of_long_night_flint: {
+    id: 'blaze_of_long_night_flint',
+    name: 'Blaze of Long Night Flint',
+    rarity: 5,
+  },
+  radiant_antler: {
+    id: 'radiant_antler',
+    name: 'Radiant Antler',
+    rarity: 4,
+  },
 };

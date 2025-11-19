@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    wriothesley: {
-      name: 'Wriothesley',
+    yelan: {
+      name: 'Yelan',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    furina: {
-      name: 'Furina',
+    flins: {
+      name: 'Flins',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300079;
-  const image = 'wriothesley furina.png';
+  const bannerId = 300089;
+  const image = 'yelan flins.png';
   const width = 800;
-  const height = 423;
+  const height = 415;
 
   let loading = true;
   let user = '';
